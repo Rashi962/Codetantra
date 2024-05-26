@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class basics_med3 {
     public static int timeCalculate(int N1, int N2, int N3) {
         int time=1;
-        while(time%N1!=0||time%N2!=0||time%N3!=0) {
+        while(time%N1!=0 || time%N2!=0 || time%N3!=0) {
             time++;
         }
         return time;
