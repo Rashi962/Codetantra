@@ -1,6 +1,6 @@
 import java.util.Scanner;
 //finding if a number is happy or not
-
+//using Floyd's cycle-finding methods
 public class _9 {
     public static int digitSquareSum(int n) {
         int sum = 0;
